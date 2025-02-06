@@ -1,7 +1,7 @@
 ## Detector de glaucoma
 
 <p align="center" width="500">
-   <img align="center" width="400" src="./images/unir.png" />
+  <img align="center" width="400" src="./images/unir.png" />
 </p>
 
 ### Máster Universitario en Inteligencia Artificial
@@ -19,15 +19,16 @@
 Este proyecto tiene tres componentes:
 
 1. Una aplicación web (carpetas front y back) que permite analizar una imagen elegiendo una de los cuatro modelos disponibles.
-
-<img align="center" width="300" src="./images/1.png" />
-
+<p align="center" width="500">
+  <img align="center" width="400" src="./images/1.png" />
+</p>
 2. Los notebooks de jupyter usados para organizar las imagenes, crear y entrenar los modelos, y realizar las predicciones.
 
 3. Una aplicacion de escritorio (carpeta ROY) creada con tkinter que permite analizar la seccion del disco óptico y calcular la relacion de radios para el glaucoma.
 
-<img align="center" width="300" src="./images/desktop.png" />
-
+<p align="center" width="500">
+  <img align="center" width="400" src="./images/desktop.png" />
+</p>
 ## Requerimientos
 
 Para ejecutar el proyecto se necesitan los siguientes paquetes:
