@@ -1,0 +1,17 @@
+.container-results {
+  padding: 30px;
+  width: 50%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  h2 {
+
+  }
+
+  img {
+    width: 80px;
+  }
+}

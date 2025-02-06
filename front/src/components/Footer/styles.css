@@ -1,0 +1,36 @@
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  border-top: 2px solid gray;
+  background-color: #111;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 5px 0;
+
+  p {
+    margin: 0;
+    font-size: 12px;
+    color: #fff;
+  }
+}
+
+.creators {
+  display: flex;
+  align-items: center;
+
+  b {
+    margin-right: 15px;
+  }
+}
+
+.unir {
+  color: #0098cd;
+
+  a {
+    color: #0098cd;
+    text-decoration: none;
+    cursor: pointer;
+  }
+}

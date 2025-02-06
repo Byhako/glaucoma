@@ -1,0 +1,23 @@
+.app {
+  min-height: 100vh;
+  position: relative;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+
+  h1 {
+    grid-area: h1;
+    font-size: 28px;
+    text-align: center;
+    color: #023e53;
+    font-weight: 700;
+  }
+
+  .container {
+    width: 100vw;
+    max-width: 100vw;
+    display: flex;
+  }
+}

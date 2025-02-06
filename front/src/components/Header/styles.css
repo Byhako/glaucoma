@@ -1,0 +1,36 @@
+.app-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 100%;
+  background-color: #023e53;
+  border-bottom: 3px solid #01202b;;
+  color: #fff;
+
+  img {
+    height: 35px;
+    padding: 30px;
+  }
+
+  nav {
+    display: flex;
+    width: 100%;
+  }
+
+  ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    padding: 0;
+  }
+
+  li:hover {
+    text-decoration: underline;
+  }
+
+  a {
+    text-decoration: none;
+    color: #fff;
+  }
+}
