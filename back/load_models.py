@@ -5,9 +5,9 @@ import os
 def load_models():
     model_paths = {
         'mobilenet': 'models/mobilenet.h5',
-        # 'densenet': 'models/densenet201.h5',
-        # 'resnet50': 'models/resnet50v2.h5',
-        # 'resnet152': 'models/resnet152v2.h5'
+        'densenet': 'models/densenet201.h5',
+        'resnet50': 'models/resnet50v2.h5',
+        'resnet152': 'models/resnet152v2.h5'
     }
     
     models = {}

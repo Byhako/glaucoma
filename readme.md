@@ -19,16 +19,19 @@
 Este proyecto tiene tres componentes:
 
 1. Una aplicación web (carpetas front y back) que permite analizar una imagen elegiendo una de los cuatro modelos disponibles.
-<p align="center" width="500">
-  <img align="center" width="400" src="./images/1.png" />
+
+<p align="center" width="600">
+  <img align="center" width="500" src="./images/1.png" />
 </p>
+
 2. Los notebooks de jupyter usados para organizar las imagenes, crear y entrenar los modelos, y realizar las predicciones.
 
 3. Una aplicacion de escritorio (carpeta ROY) creada con tkinter que permite analizar la seccion del disco óptico y calcular la relacion de radios para el glaucoma.
 
-<p align="center" width="500">
-  <img align="center" width="400" src="./images/desktop.png" />
+<p align="center" width="600">
+  <img align="center" width="500" src="./images/desktop.png" />
 </p>
+
 ## Requerimientos
 
 Para ejecutar el proyecto se necesitan los siguientes paquetes:
@@ -50,7 +53,7 @@ Para ejecutar el proyecto se necesitan los siguientes paquetes:
 
 Para ejecutar ela aplicacion web se debe seguir los siguientes pasos:
 
-1. Descomprimir los modelos de la carpeta `models` en la carpeta `models`.
+1. Descargar los modelos desde este [link](https://drive.google.com/file/d/1jGoxhDwQlhFcM_fkM7tiitSDP2NTrIV7/view?usp=sharing), descomprimirlos y guardarlos en la carpeta `models`.
 2. Para ejecutar el servidor de la aplicacion web se debe correr el siguiente comando en la carpeta `back`:
 
 ```bash
@@ -66,3 +69,5 @@ npm start
 ```
 
 Esto inicia el cliente en el puerto 3000.
+
+4. Para ejecutar los notebooks es necesario descargar los datos de entrenamiento desde este [link](https://drive.google.com/file/d/1tYE8o6JiAvw-fOihrO6mHw3uA-4E2Ktu/view?usp=sharing) y guardarlos en la carpeta `data`, dentro de la carpeta `notebooks`.
