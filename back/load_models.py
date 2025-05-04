@@ -11,13 +11,14 @@ def load_models():
     }
     
     models = {}
-    
+
     for name, path in model_paths.items():
         if os.path.exists(path):
+            print(f"Loading model '{name}' from {path}")
             models[name] = keras.models.load_model(path)
         else:
             print(f"Error: El archivo del modelo '{name}' no se encuentra en la ruta: {path}")
-    
+
     return models
 
 models = load_models()

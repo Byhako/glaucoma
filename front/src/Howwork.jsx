@@ -6,7 +6,10 @@ export default function Howwork () {
     <div className="app">
       <Header />
 
-      <h1>Cómo funciono</h1>
+      <main className="main">
+        <h1>Cómo funciono</h1>
+
+      </main>
 
       <Footer />
     </div>

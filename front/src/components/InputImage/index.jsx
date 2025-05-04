@@ -55,32 +55,35 @@ export default function InputImage ({
             DenseNet121
           </label>
         </div>
-        <div className='container-input'>
-          <label>
-            Selecciona tu imagen
-            <input
-              type='file'
-              className='input-image'
-              id='image'
-              name='image'
-              accept='.png, .jpg, .jpeg'
-              onChange={handleImageChange}
-            />
-          </label>
 
-          {image && <img src={image} alt="Uploaded" className='original-image' />}
+        <div className='wrapper'>
+          <div className='container-input'>
+            <label>
+              Selecciona tu imagen
+              <input
+                type='file'
+                className='input-image'
+                id='image'
+                name='image'
+                accept='.png, .jpg, .jpeg'
+                onChange={handleImageChange}
+              />
+            </label>
 
-          <p className='filename'>{file?.name}</p>
+            {image && <img src={image} alt="Uploaded" className='original-image' />}
+
+            <p className='filename'>{file?.name}</p>
+          </div>
+
+          {image && (
+            <button
+              className='btn-analice'
+              type='button'
+              onClick={handleImageUpload}
+            >Analizar</button>
+          )}
         </div>
       </div>
-
-      {image && (
-        <button
-          className='btn-analice'
-          type='button'
-          onClick={handleImageUpload}
-        >Analizar</button>
-      )}
     </section>
   )
 }

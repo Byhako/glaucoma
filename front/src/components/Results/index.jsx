@@ -5,13 +5,8 @@ export default function Results ({ message }) {
     <section className='container-results'>
       <h2>{message}</h2>
 
-      {message.includes('No')
-        ? (
-          <img src='happy.png' alt='Hay glaucoma' />
-          )
-        : (
-          <img src='sad.png' alt='No hay glaucoma' />
-          )}
+      {message.includes('No') && <img src='happy.png' alt='Hay glaucoma' />}
+      {message.includes('Si') && <img src='sad.png' alt='No hay glaucoma' />}
     </section>
   )
 }

@@ -51,7 +51,7 @@ Para ejecutar el proyecto se necesitan los siguientes paquetes:
 
 ## Como ejecutar el proyecto
 
-Para ejecutar ela aplicacion web se debe seguir los siguientes pasos:
+Para ejecutar la aplicacion web se debe seguir los siguientes pasos:
 
 1. Descargar los modelos desde este [link](https://drive.google.com/file/d/1jGoxhDwQlhFcM_fkM7tiitSDP2NTrIV7/view?usp=sharing), descomprimirlos y guardarlos en la carpeta `models`.
 2. Para ejecutar el servidor de la aplicacion web se debe correr el siguiente comando en la carpeta `back`:
