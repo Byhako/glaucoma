@@ -58,7 +58,7 @@ export default function InputImage ({
 
         <div className='wrapper'>
           <div className='container-input'>
-            <label>
+            <label className='label-input'>
               Selecciona tu imagen
               <input
                 type='file'
